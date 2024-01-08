@@ -24,6 +24,8 @@
             let step = (d) => {
                 if ($size > 1) {
                     $size -= 0.1/60 * ($size) * $block.durablity / $tool.slowness;
+                } else {
+                    $size = 1;
                 }
                 $angle = Math.sin(d / 30) * ($size - 1) * 10;
                 $stage = getStage($size - 1);

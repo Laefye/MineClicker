@@ -3,9 +3,6 @@
 	<h1 class="mb-1">MineClicker</h1>
 	<slot/>
 	<p>
-		Resource pack: <a href="https://faithfulpack.net/">Faithful</a>
-	</p>
-	<p>
 		Created by Laefye (using Sveltekit/Svelte)
 	</p>
 </div>
